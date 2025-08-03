@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog Produk</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Custom Style -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5 mb-4 animate__animated animate__fadeInDown">
+    <div class="container">
+      <h1 class="fw-bold">Katalog Produk</h1>
+      <p class="lead">Temukan produk terbaik pilihan Anda</p>
+    </div>
+  </header>
+
+  <!-- Katalog Section -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Produk 1 -->
+      <div class="col animate__animated animate__zoomIn">
+        <div class="card h-100 shadow-sm">
+          <img src="https://contents.mediadecathlon.com/p2829751/k$6257a44ffba39d1a3deea873edd25a53/sandal-jepit-wanita-100-hitam-olaian-8731819.jpg?f=1920x0&format=auto" class="card-img-top" alt="Produk 1">
+          <div class="card-body">
+            <h5 class="card-title">Produk 1</h5>
+            <p class="card-text">Deskripsi singkat tentang produk ini. Sangat menarik dan berkualitas.</p>
+            <a href="produk1.html" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="col animate__animated animate__zoomIn animate__delay-1s">
+        <div class="card h-100 shadow-sm">
+          <img src="https://cdn.ruparupa.io/fit-in/850x850/filters:format(webp)/filters:watermark(content.ruparupa.io,products/wm/rr.png,0,-0,0,100,100)/ruparupa-com/image/upload/Products/10475773_1.jpg" class="card-img-top" alt="Produk 2">
+          <div class="card-body">
+            <h5 class="card-title">Produk 2</h5>
+            <p class="card-text">Produk kedua dengan fitur hebat dan harga terjangkau.</p>
+            <a href="#" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="col animate__animated animate__zoomIn animate__delay-2s">
+        <div class="card h-100 shadow-sm">
+          <img src="https://contents.mediadecathlon.com/p2840713/k$49925ddfec134393ba6d2b2c34898c95/sandal-pria-slap-590-hitam-olaian-8305246.jpg?f=1920x0&format=auto" class="card-img-top" alt="Produk 3">
+          <div class="card-body">
+            <h5 class="card-title">Produk 3</h5>
+            <p class="card-text">Solusi sempurna untuk kebutuhan Anda sehari-hari.</p>
+            <a href="#" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 mt-5 bg-light animate__animated animate__fadeInUp">
+    <p class="mb-0">&copy; 2025 Katalog Produk. Dibuat dengan ❤️ dan Bootstrap.</p>
+  </footer>
+
+</body>
+</html>
